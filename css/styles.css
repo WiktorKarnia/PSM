@@ -1,0 +1,38 @@
+#navbar{
+    background-color: #610909;
+}
+#col{
+    text-align: center
+}
+#title{
+    text-align: center
+}
+#text{
+    text-align: justify
+}
+
+#apply_button{
+    text-decoration: none;
+    border: 0.2px solid #000;
+    color: #fff;
+    background: #610909;
+    padding: 10px;
+    border-radius: 10px;
+    margin:10px
+}
+#input{
+    width: 100%
+}
+#select{
+    margin-top: 11px
+}
+#problems{
+    padding: 10px;
+    margin: 20px
+}
+#finish_button {
+    text-align: left;
+}
+#stop_button {
+    text-align: right;
+}
