@@ -54,6 +54,10 @@
 #content_wrapper{
     padding-bottom: 2.5rem;    /* Footer height */
 }
-#form {
-    margin:auto
+#reg_form {
+    border-radius: 20px;
+    border: #000;
+    background-color: rgb(192, 192, 192);
+    padding: 20px;
+    margin-top: 30px;
 }
