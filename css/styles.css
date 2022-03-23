@@ -11,10 +11,12 @@
     text-align: justify
 }
 #desc{
-    margin:10px
+    margin:20px;
+    text-align: center
 }
 #desc h5{
-    font-weight: bold
+    font-weight: bold;
+    
 }
 #apply_button{
     text-decoration: none;
@@ -23,17 +25,19 @@
     background: #610909;
     padding: 10px;
     border-radius: 10px;
-    margin:10px
+    margin-top: 15px
 }
 #input{
-    width: 100%
+    width: 50%
 }
 #select{
-    margin-top: 11px
+    margin-top: 11px;
+    width: 50%
 }
 #problems{
     padding: 10px;
-    margin: 20px
+    margin-top: 11px;
+    width: 50%
 }
 #finish_button {
     text-align: left;
@@ -49,4 +53,7 @@
 }
 #content_wrapper{
     padding-bottom: 2.5rem;    /* Footer height */
+}
+#form {
+    margin:auto
 }

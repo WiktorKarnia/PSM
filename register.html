@@ -14,64 +14,60 @@
   <h1>KierunkiUEK</h1>
   <h4>Uniwersytet Ekonomiczny w Krakowie</h4> <br>
 </div>
-<form action="/action_page.php">
-    
-    <div class="container mt-5">
-        <div id="row" class="row">
-            <div id="col" class="col-sm-4">
-                <div class="mb-3 mt-3">
-                    <label for="email" class="form-label">Imię:</label>
-                    <input type="email" class="form-control" id="input" placeholder="Wpisz swoje imię" name="email">
-                    </div>
-                    <div class="mb-3">
-                    <label for="pwd" class="form-label">Nazwisko:</label>
-                    <input type="password" class="form-control" id="input" placeholder="Wpisz swoje nazwisko" name="pswd">
-                    </div>
-                    <div class="mb-3">
-                        <label for="pwd" class="form-label">Email:</label>
-                        <input type="password" class="form-control" id="input" placeholder="Wpisz swój email" name="pswd">
-                    </div>
-            </div>
-        <div id="col" class="col-sm-4">
-            <br><br><br><br>
-            <div class="form-check">
-                <input type="radio" class="form-check-input" id="radio1" name="optradio" value="Studia stacjonarne" checked>Studia stacjonarne
-                <label class="form-check-label" for="radio1"></label>
-              </div>
-              <div class="form-check">
-                <input type="radio" class="form-check-input" id="radio2" name="optradio" value="Studia stacjonarne">Studia niestacjonarne
-                <label class="form-check-label" for="radio2"></label>
-            </div>
-            <br>
-            <select id="select" class="form-select">
-                <option>Kierunek...</option>
-                <option>Informatyka Stosowana</option>
-                <option>Ekonomia</option>
-                <option>Finanse i rachunkowość</option>
-            </select>
-        </div>
-        <div id="col"  class="col-sm-4">
-            <br>
-            <textarea id="problems" name="problems" rows="5" cols="30">Uwagi...</textarea> 
-            <br><a id="apply_button" href="finished.html">Aplikuj na kierunek!</a><br>
-            <br><a id="apply_button" href="kierunkiUEK.html">Anuluj</a><br>
-        </div>
+<div class="container" id="form">
+
+    <div class="container text-center mt-2">
+        <h1 id="kierunek">Aplikuj już teraz</h1>
     </div>
+
+    <form action="/action_page.php">
+        <div class="mb-3 mt-3">
+            <label for="name" class="form-label">Imię:</label>
+            <input type="text" class="form-control" id="name" placeholder="Wpsiz twoje imię" name="name">
+        </div>
+
+    <div class="mb-3">
+        <div class="mb-3 mt-3">
+            <label for="surname" class="form-label">Nazwisko:</label>
+            <input type="text" class="form-control" id="surnam" placeholder="Wpisz twoje nazwisko" name="surname">
+        </div>
+        <div class="mb-3 mt-3">
+            <label for="email" class="form-label">Email:</label>
+            <input type="email" class="form-control" id="email" placeholder="Wpisz E-maaila" name="email">
+        </div>
+        <div class="form-check mb-3">
+            <label class="form-check-label">
+              <input class="form-check-input" type="checkbox" name="remember"> Studia stacjonarne
+            </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label>
+              <input class="form-check-input" type="checkbox" name="remember"> Studia zaoczne
+            </label>
+          </div>
+    </div>
+
+    <div class="form-group">
+        <label for="sel1">Lista kierunków:</label>
+        <select class="form-control" id="sel1">
+          <option>Kierunek Logistyka</option>
+          <option>Kierunek Informatyka Stosowana</option>
+          <option>Kierunek Zarządzanie</option>
+        </select>
+    </div><br>
+
+    <div class="form-group">
+        <label for="comment">Uwagi:</label>
+        <textarea class="form-control" rows="5" id="comment"></textarea>
+      </div><br>
+
+    <div class="form-check mb-3">
+      <label class="form-check-label">
+        <input class="form-check-input" type="checkbox" name="remember"> Zapamiętaj mnie
+      </label>
+    </div>
+    <a id="apply_button" href="finished.html">Zakończ aplikowanie</a>
+    <a id="apply_button" href="kierunkiUEK.html">Anuluj</a>
+    </form>
 </div>
-</form>
-<br><br><br><br><br><br><br>
-<section class="">
-  <!-- Footer -->
-  <footer id="footer" class="text-center text-white" style="background-color: #0a4275;">
-    
-    <!-- Copyright -->
-    <div class="text-center p-3" style="background-color: #610909;">
-      © 2020 Copyright:
-      <a class="text-white" href="https:github.com/WiktorKarnia" target="_blank">Wiktor Karnia</a>
-    </div>
-    <!-- Copyright -->
-  </footer>
-  <!-- Footer -->
-</section> 
+
 </body>
 </html>
